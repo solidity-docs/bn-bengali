@@ -1,21 +1,20 @@
-Solidity
+সলিডিটি
 ========
 
-Solidity is an object-oriented, high-level language for implementing smart contracts.
-Smart contracts are programs that govern the behavior of accounts within the Ethereum state.
+সলিডিটি একটি অবজেক্ট ওরিয়েন্টেড, হাই লেভেল প্রোগ্রামিং ভাষা যা স্মার্ট কন্ট্রাক্ট তৈরিতে ব্যাবহার হয়।
+স্মার্ট কন্ট্রাক্ট হল এমন প্রোগ্রাম যা ইথেরিয়াম নির্ভর অ্যাকাউন্টগুলির আচরণ নিয়ন্ত্রণ করে।
 
-Solidity is a `curly-bracket language <https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages>`_ designed to target the Ethereum Virtual Machine (EVM).
-It is influenced by C++, Python, and JavaScript.
-You can find more details about which languages Solidity has been inspired by in the :doc:`language influences <language-influences>` section.
+সলিডিটি একটি `কার্লি ব্রেকেট নির্ভর প্রোগ্রামিং ভাষা <https://en.wikipedia.org/wiki/List_of_programming_languages_by_type#Curly-bracket_languages>`_ যা ইথেরিয়াম ভার্চুয়াল মেশিনের জন্য তৈরি।
+এর সাথে সি++, পাইথন এবং জাভাস্ক্রিপ্ট এর মিল আছে।
+কোন কোন প্রোগ্রামিং ভাষা দ্বারা সলিডিটি প্রভাবিত, সেই বিষয়ে আর বিস্তারিত জানতে চাইলে :doc:`language influences <language-influences>` এই অংশটি দেখুন।
 
-Solidity is statically typed, supports inheritance, libraries, and complex user-defined types, among other features.
+সলিডিটি স্ট্যাটিক্যালি টাইপড, এটিতে ইনহেরিটেন্স করা যায়, লাইব্রেরি ব্যাবহার করা যায়, এবং নিজের তৈরি কমপ্লেক্স টাইপ তৈরি করা যায়, এছাড়াও আরও বিভিন্ন ফিচার এতে আছে।
 
-With Solidity, you can create contracts for uses such as voting, crowdfunding, blind auctions, and multi-signature wallets.
+সলিডিটি দিয়ে ভোট, ক্রাউড ফান্ডিং, গোপন নিলাম, মাল্টি সিগ্নেচার ওয়ালেট ইত্যাদির জন্য কনট্রাক্ট তৈরি করতে পারবেন।
 
-When deploying contracts, you should use the latest released version of Solidity.
-Apart from exceptional cases, only the latest version receives
-`security fixes <https://github.com/ethereum/solidity/security/policy#supported-versions>`_.
-Furthermore, breaking changes, as well as new features, are introduced regularly.
+কনট্রাক্ট তৈরির ক্ষেত্রে সলিডিটির সর্বশেষ প্রকাশিত সংস্করণ ব্যাবহার করুন। কিছু বিশেষ ক্ষেত্রে ছাড়া, শুধু মাত্র সর্বশেষ সংস্করণে 
+`নিরাপত্তা সংশোধন <https://github.com/ethereum/solidity/security/policy#supported-versions>`_ পাওয়া যাবে। 
+এছাড়াও, যে সকল পরিবর্তন পুরানো কোড ভেঙ্গে ফেলতে পারে এবং নতুন ফিচার প্রতিনিয়ত যোগ করা হয়ে থাকে।
 We currently use a 0.y.z version number `to indicate this fast pace of change <https://semver.org/#spec-item-4>`_.
 
 .. warning::
