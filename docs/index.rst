@@ -15,12 +15,12 @@
 কনট্রাক্ট তৈরির ক্ষেত্রে সলিডিটির সর্বশেষ প্রকাশিত সংস্করণ ব্যাবহার করুন। কিছু বিশেষ ক্ষেত্রে ছাড়া, শুধু মাত্র সর্বশেষ সংস্করণে 
 `নিরাপত্তা সংশোধন <https://github.com/ethereum/solidity/security/policy#supported-versions>`_ পাওয়া যাবে। 
 এছাড়াও, যে সকল পরিবর্তন পুরানো কোড ভেঙ্গে ফেলতে পারে এবং নতুন ফিচার প্রতিনিয়ত যোগ করা হয়ে থাকে।
-We currently use a 0.y.z version number `to indicate this fast pace of change <https://semver.org/#spec-item-4>`_.
+ভার্শন নম্বরের জন্য বর্তমানে আমরা 0.y.z ফর্মেট ব্যাবহার করছি `যাতে দ্রুত পরিবর্তনের সাথে তাল মেলানো যায় <https://semver.org/#spec-item-4>`_.
 
-.. warning::
+.. সতর্কতা::
 
-  Solidity recently released the 0.8.x version that introduced a lot of breaking changes.
-  Make sure you read :doc:`the full list <080-breaking-changes>`.
+  সলিডিটি সম্প্রতি 0.8.x সংস্করণ প্রকাশ করেছে যাতে আগের সংস্করণের সাথে অসামঞ্জস্যপূর্ণ অনেক পরিবর্তন রয়েছে।
+  এ সম্পর্কে জানতে, অবশ্যই পড়ুন :doc:`সম্পূর্ণ তালিকা <080-breaking-changes>`.
 
 Ideas for improving Solidity or this documentation are always welcome,
 read our :doc:`contributors guide <contributing>` for more details.
